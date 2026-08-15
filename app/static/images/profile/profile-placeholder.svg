@@ -1,0 +1,12 @@
+<svg width="800" height="950" viewBox="0 0 800 950" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="950" fill="#E8E1D3"/>
+  <path d="M0 637C101 564 177 590 278 509C354 448 405 396 507 425C614 456 645 548 800 502V950H0V637Z" fill="#9C9E78"/>
+  <path d="M0 718C134 665 209 717 313 641C431 555 488 579 581 646C655 699 727 702 800 664V950H0V718Z" fill="#53654E"/>
+  <path d="M84 215C170 154 260 174 310 248C357 317 318 404 225 439C133 473 50 427 39 343C32 286 47 243 84 215Z" fill="#C0AF86" opacity=".65"/>
+  <path d="M183 345C189 255 271 211 354 222C452 235 479 319 465 403C450 491 408 568 323 567C229 565 175 459 183 345Z" fill="#B7A37A"/>
+  <circle cx="322" cy="346" r="104" fill="#5A4637" opacity=".55"/>
+  <path d="M246 522C280 488 363 483 405 526L468 672H179L246 522Z" fill="#655E49" opacity=".8"/>
+  <text x="400" y="793" text-anchor="middle" fill="#F8F4EA" font-family="Georgia, serif" font-size="27" letter-spacing="4">YOUR PHOTO</text>
+  <text x="400" y="831" text-anchor="middle" fill="#F8F4EA" font-family="Arial, sans-serif" font-size="15" letter-spacing="2">REPLACE THIS SVG WHEN READY</text>
+</svg>
+

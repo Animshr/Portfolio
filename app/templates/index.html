@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Anim Shrestha, a Computer Science with Artificial Intelligence student and frontend developer.">
+  <meta name="theme-color" content="#263d36">
+  <title>Anim Shrestha — A quiet world of thoughtful systems</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌿%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <a class="skip-link" href="#story">Skip to the story</a>
+  <div class="film-grain" aria-hidden="true"></div>
+  <div class="page-loader" aria-hidden="true"><span></span><i>loading the landscape</i></div>
+
+  <header class="site-header" id="home">
+    <a class="wordmark" href="#home" aria-label="Anim Shrestha, home"><span>A</span>nim.</a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="is-active" href="#home">Home</a>
+      <a href="#story">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#achievements">Milestones</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span><span></span><b>Menu</b></button>
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobile navigation">
+      <a href="#home">Home</a><a href="#story">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#achievements">Milestones</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero scene" aria-labelledby="hero-title">
+      <div class="hero-sky" aria-hidden="true">
+        <span class="star star-one"></span><span class="star star-two"></span><span class="star star-three"></span>
+        <span class="cloud cloud-one"></span><span class="cloud cloud-two"></span><span class="cloud cloud-three"></span>
+        <span class="sun"></span><span class="light-ray ray-one"></span><span class="light-ray ray-two"></span>
+      </div>
+      <div class="hero-copy" data-parallax=".018">
+        <p class="eyebrow"><span class="leaf-mark">✦</span> Chabahil, Kathmandu · Nepal</p>
+        <p class="hero-kicker">where ideas take root</p>
+        <h1 id="hero-title"><span>A quiet world</span><em>of thoughtful</em><strong>systems.</strong></h1>
+        <p class="hero-intro">I’m <b>Anim Shrestha</b> — a Computer Science with Artificial Intelligence student, frontend developer, and UI/UX enthusiast drawn to software that makes everyday life a little clearer.</p>
+        <div class="hero-actions">
+          <a class="button button-forest" href="#projects"><span>Step into my work</span><i aria-hidden="true">↘</i></a>
+          <a class="text-link" href="#story">Follow the trail <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="profile-composition" data-parallax="-.012">
+        <span class="profile-note">a work in<br>progress, always</span>
+        <span class="scribble scribble-one" aria-hidden="true"></span>
+        <div class="profile-backdrop"></div>
+        <div class="profile-frame"><img src="{{ url_for('static', filename='images/profile/animphoto.jpeg') }}" alt="Anim Shrestha's profile photo"></div>
+        <span class="profile-caption"><i></i> anim shrestha</span>
+        <span class="floating-leaf leaf-a" aria-hidden="true">✦</span><span class="floating-leaf leaf-b" aria-hidden="true">✦</span>
+      </div>
+      <div class="hero-landscape" aria-hidden="true">
+        <div class="mountain mountain-far"></div><div class="mountain mountain-near"></div>
+        <div class="tree-line trees-back"></div><div class="tree-line trees-front"></div>
+        <div class="hero-ground"></div><span class="haze"></span>
+      </div>
+      <a class="scroll-cue" href="#story" aria-label="Scroll to about section"><span>scroll</span><i></i></a>
+    </section>
+
+    <section class="story section scene" id="story" aria-labelledby="story-title">
+      <div class="section-label reveal"><span>01</span> the opening chapter</div>
+      <div class="story-layout">
+        <div class="story-heading reveal">
+          <p class="handwritten">A little bit about me</p>
+          <h2 id="story-title">Curiosity is my <em>north star.</em></h2>
+          <p class="lead">I enjoy turning problems into friendly, useful digital experiences — whether that means shaping an interface, working through a system, or helping a team find its rhythm.</p>
+          <p>At Softwarica College of IT and E-Commerce, I’m studying BSc (Hons) Computer Science with Artificial Intelligence, affiliated with Coventry University. My work sits at the intersection of practical web development, thoughtful UI/UX, and steady learning.</p>
+        </div>
+        <div class="story-compass reveal" aria-hidden="true">
+          <div class="compass-card"><span class="compass-letter north">N</span><span class="compass-letter east">E</span><span class="compass-letter south">S</span><span class="compass-letter west">W</span><div class="compass-needle"></div><div class="compass-center">A</div></div>
+          <p>learning<br><em>in public</em></p>
+        </div>
+        <div class="story-notes reveal">
+          <article><span class="note-number">01</span><h3>Build with care</h3><p>Responsive web interfaces and systems shaped around the people using them.</p></article>
+          <article><span class="note-number">02</span><h3>Learn the why</h3><p>From AI foundations to databases, I value understanding the structure beneath the screen.</p></article>
+          <article><span class="note-number">03</span><h3>Bring people together</h3><p>Project leadership, event coordination, and team-based work are part of my practice.</p></article>
+        </div>
+      </div>
+      <div class="paper-path" aria-hidden="true"><span></span><span></span><span></span></div>
+    </section>
+
+    <section class="skills section scene" id="skills" aria-labelledby="skills-title">
+      <div class="skills-sun" aria-hidden="true"></div>
+      <div class="section-label light reveal"><span>02</span> tools along the way</div>
+      <div class="skills-top reveal">
+        <div><p class="handwritten light-hand">the field kit</p><h2 id="skills-title">Things I make<br><em>with intention.</em></h2></div>
+        <p>My growing toolkit combines software foundations with design thinking, data exploration, and practical collaboration.</p>
+      </div>
+      <div class="skill-trail">
+        <article class="skill-cluster reveal"><span class="cluster-index">01</span><div class="cluster-icon code-icon">&lt;/&gt;</div><h3>Programming</h3><p>Python · Java · JavaScript · SQL</p></article>
+        <article class="skill-cluster reveal"><span class="cluster-index">02</span><div class="cluster-icon">⌘</div><h3>Web & UI</h3><p>HTML · CSS · Responsive Web Design · Figma · Wireframing · Prototyping · User Flow</p></article>
+        <article class="skill-cluster reveal"><span class="cluster-index">03</span><div class="cluster-icon">◫</div><h3>Systems & Data</h3><p>Flask · Jinja · MySQL · MySQL Workbench · Database Design & Normalization · Pandas · Matplotlib · Google Colab</p></article>
+        <article class="skill-cluster reveal"><span class="cluster-index">04</span><div class="cluster-icon">↗</div><h3>Practice</h3><p>Git · GitHub · VS Code · Agile · Scrum · OOP · Version Control · Canva</p></article>
+      </div>
+      <div class="skills-forest" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+    </section>
+
+    <section class="projects section scene" id="projects" aria-labelledby="projects-title">
+      <div class="section-label reveal"><span>03</span> selected explorations</div>
+      <div class="projects-heading reveal"><p class="handwritten">made with a team, a sketchbook, and plenty of tea</p><h2 id="projects-title">The work behind<br><em>the window light.</em></h2></div>
+      <div class="project-grid">
+        <article class="project-card bookverse reveal">
+          <div class="project-visual library-visual" aria-hidden="true">
+            <span class="book b1"></span><span class="book b2"></span><span class="book b3"></span><span class="book b4"></span><span class="book b5"></span><span class="book b6"></span>
+            <div class="lamp"><i></i><b></b></div><span class="library-glow"></span><span class="library-label">BOOKVERSE</span>
+          </div>
+          <div class="project-copy"><div class="project-meta"><span>Academic team project</span><span>June 2026</span></div><h3>BookVerse <em>— Library Management System</em></h3><p>A web-based library system built for the full borrowing journey: role-based access, book management, search, filtering, sorting, borrow/return/renew flows, due-date tracking, and fine calculation.</p><p class="role-line"><b>My focus:</b> significant frontend development across responsive, interactive modules; team collaboration in a 6-member Agile/Scrum workflow.</p><ul class="tags"><li>Flask</li><li>Python</li><li>MySQL</li><li>JavaScript</li><li>Figma</li><li>GitHub</li></ul></div>
+          <span class="project-mark">01</span>
+        </article>
+        <article class="project-card planner reveal">
+          <div class="project-visual planner-visual" aria-hidden="true"><div class="planner-moon"></div><div class="planner-page"><span></span><span></span><span></span><span></span><b>focus</b></div><span class="planner-star s1">✦</span><span class="planner-star s2">✦</span><span class="planner-vine"></span></div>
+          <div class="project-copy"><div class="project-meta"><span>Semester I academic concept</span><span>Aug 2025</span></div><h3>Smart Study Planner <em>— Master Your Time</em></h3><p>An academic project pitch for a study-planning application that would help students organize schedules through personalized plans, task prioritization, progress tracking, and productivity-focused features.</p><p class="role-line"><b>My focus:</b> led a four-person team through planning, task distribution, documentation, presentation, and system design. Proposed AI-inspired ideas including adaptive reminders, Pomodoro scheduling, and personalized recommendations.</p><ul class="tags"><li>Python</li><li>HTML</li><li>CSS</li><li>Academic concept</li></ul></div>
+          <span class="project-mark">02</span>
+        </article>
+      </div>
+      <p class="project-footnote reveal">A note on the study planner: it was a conceptual academic project, not presented here as a production application.</p>
+    </section>
+
+    <section class="experience section scene" id="experience" aria-labelledby="experience-title">
+      <div class="rain-lines" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="section-label light reveal"><span>04</span> people, plans, and momentum</div>
+      <div class="experience-heading reveal"><p class="handwritten light-hand">the work between the lines</p><h2 id="experience-title">Showing up for<br><em>the bigger picture.</em></h2></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-date">Apr — May<br>2026</div><div class="timeline-dot"></div><div class="timeline-card"><p class="timeline-type">Organizing committee</p><h3>Events & Logistics Associate</h3><h4>TEDx Softwarica · Kathmandu, Nepal</h4><p>Supported logistics, coordination, and operational planning for TEDx Softwarica; worked across teams to help make event execution and attendee experience run smoothly. The contribution received national recognition through Deshantar News coverage.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">Nov 2025 —<br>Feb 2026</div><div class="timeline-dot"></div><div class="timeline-card"><p class="timeline-type">Organizing committee</p><h3>Partnership & Sponsorship Associate</h3><h4>Hult Prize at Softwarica College of IT · Kathmandu, Nepal</h4><p>Supported partnership and sponsorship work for the Hult Prize OnCampus program through outreach, proposals, stakeholder communication, relationship management, and planning coordination. Contributed to a program recognized by the Hult Prize Foundation.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">Sep 2024 —<br>Mar 2025</div><div class="timeline-dot"></div><div class="timeline-card"><p class="timeline-type">Education consultancy</p><h3>Jr. Assistant</h3><h4>Paila Education Consultancy Pvt. Ltd. · Kathmandu</h4><p>Assisted students with higher-education admissions and documentation, managed records and consultation schedules, and coordinated communication using Microsoft Office, Google Workspace, and email.</p></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">Jun — Aug<br>2024</div><div class="timeline-dot"></div><div class="timeline-card"><p class="timeline-type">Education consultancy</p><h3>Documentation</h3><h4>Paila Education Consultancy Pvt. Ltd. · Kathmandu</h4><p>Prepared, verified, and organized student admission documents; maintained records and supported efficient processing alongside counselors.</p></div></article>
+      </div>
+    </section>
+
+    <section class="education section scene" id="education" aria-labelledby="education-title">
+      <div class="section-label reveal"><span>05</span> the study of becoming</div>
+      <div class="education-header reveal"><div><p class="handwritten">a map of the learning</p><h2 id="education-title">Roots that keep<br><em>reaching further.</em></h2></div><p>Computer science, artificial intelligence, and the satisfaction of connecting a system’s moving parts.</p></div>
+      <div class="education-layout">
+        <article class="degree-card reveal"><span class="degree-stamp">current<br>chapter</span><p class="degree-period">Sep 2025 — Present</p><h3>BSc (Hons) Computer Science <em>with Artificial Intelligence</em></h3><h4>Softwarica College of IT and E-Commerce</h4><p class="affiliation">Affiliated with Coventry University, UK · Dillibazar, Kathmandu</p><div class="coursework"><b>Coursework trail</b><span>Python Programming</span><span>OOP</span><span>DBMS</span><span>MySQL</span><span>Web Development</span><span>Flask</span><span>Data Visualization</span><span>Git & GitHub</span></div><p class="scholarship">✦ Stage 1 Semester II Academic Scholarship Recipient · Softwarica College of IT · 2026</p></article>
+        <aside class="education-side reveal"><div class="edu-sun" aria-hidden="true"></div><article><p class="degree-period">Aug 2022 — Mar 2024</p><h3>+2 / High School</h3><h4>Science Stream · United Academy</h4><p>Kumaripati, Lalitpur</p></article><div class="language-list"><p>Languages spoken</p><span>Nepali <b>native</b></span><span>English <b>professional working</b></span><span>Hindi <b>professional working</b></span><span>French <b>basic · Semester I</b></span></div></aside>
+      </div>
+    </section>
+
+    <section class="milestones section scene" id="achievements" aria-labelledby="milestones-title">
+      <div class="section-label light reveal"><span>06</span> mementos from the journey</div>
+      <div class="milestones-heading reveal"><p class="handwritten light-hand">small markers, meaningful miles</p><h2 id="milestones-title">The chapters worth<br><em>keeping close.</em></h2></div>
+      <div class="milestone-constellation">
+        <article class="milestone-card card-one reveal"><span class="badge">✦</span><p>2026</p><h3>TechSense</h3><h4>Exploring the Future of Technology</h4><p>Completed a 3-week, 32-hour IoA-endorsed technology foundation course covering Python, AI, machine learning, cybersecurity, data analytics, and visualization, with hands-on work and a capstone presentation.</p></article>
+        <article class="milestone-card card-two reveal"><span class="badge">⌁</span><p>2025</p><h3>Work Performance</h3><h4>Certificate of Achievement · Paila Education Consultancy</h4><p>Recognition for work performance.</p></article>
+        <article class="milestone-card card-three reveal"><span class="badge">✦</span><p>2025</p><h3>Outstanding Contributions</h3><h4>Certificate of Appreciation · Paila Education Consultancy</h4><p>Recognition for outstanding contributions.</p></article>
+        <article class="milestone-card card-four reveal"><span class="badge">◌</span><p>2023 — 2024</p><h3>District Mathematics Olympiad</h3><h4>IMO 2024 Team Selection · Mathematics Association of Nepal</h4><p>Participant.</p></article>
+        <article class="milestone-card card-five reveal"><span class="badge">↗</span><p>2024</p><h3>Class Representative</h3><h4>Recognition · United Academy Secondary School</h4><p>Recognition for class representation.</p></article>
+      </div>
+      <div class="training-strip reveal"><div><span>School Leadership Program</span><b>Women LEAD Nepal · 2021</b></div><div><span>BigQuery Sandbox Workshop</span><b>International Faculty · Softwarica College of IT · 2026</b></div></div>
+    </section>
+
+    <section class="volunteer section scene" aria-labelledby="volunteer-title">
+      <div class="section-label reveal"><span>07</span> hands in the community</div>
+      <div class="volunteer-layout"><div class="volunteer-title reveal"><p class="handwritten">the good kind of busy</p><h2 id="volunteer-title">Making room for<br><em>the people around me.</em></h2></div><div class="volunteer-list"><article class="reveal"><span>Jan 2026</span><h3>Tri-Code Tech Event</h3><p>Helped with participant registration, event coordination, logistics, and smooth technical-session delivery.</p></article><article class="reveal"><span>Jul 2025</span><h3>Event Volunteer · Softwarica College of IT</h3><p>Supported planning and execution for college events, workshops, and student activities.</p></article><article class="reveal"><span>Jan — Feb 2023</span><h3>Robotics Volunteer · United Robotics Fest 1.0</h3><p>Supported Robo Soccer Competition coordination, participant activities, and on-site operations with United Academy and the Robotics Association of Nepal.</p></article></div></div>
+      <div class="volunteer-hills" aria-hidden="true"><i></i><i></i><i></i></div>
+    </section>
+
+    <section class="contact section scene" id="contact" aria-labelledby="contact-title">
+      <div class="night-sky" aria-hidden="true"><span class="moon"></span><span class="moon-haze"></span><i class="night-star n1">✦</i><i class="night-star n2">✦</i><i class="night-star n3">✦</i><i class="night-star n4">✦</i></div>
+      <div class="contact-room" aria-hidden="true"><div class="window"><i></i><i></i></div><div class="desk"><i></i><i></i></div><div class="plant"><i></i><i></i><i></i></div><div class="lamp-glow"></div></div>
+      <div class="contact-copy reveal"><p class="handwritten light-hand">until the next chapter</p><h2 id="contact-title">Let’s build<br><em>something that matters.</em></h2><p>Whether it’s a project, an opportunity, or a thoughtful conversation, I’d be glad to hear from you.</p><a class="button button-cream" href="mailto:animshr123@gmail.com"><span>Write to Anim</span><i aria-hidden="true">↗</i></a><a class="phone-link" href="tel:+9779864483212">+977 9864483212</a></div>
+      <div class="contact-socials reveal"><a class="social-link linkedin" href="https://www.linkedin.com/in/animshrestha/" target="_blank" rel="noopener noreferrer" aria-label="Anim Shrestha on LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 8.5V19H3V8.5h3.5ZM4.75 3A2.03 2.03 0 1 0 4.75 7.06 2.03 2.03 0 0 0 4.75 3ZM21 13c0-3.17-1.69-4.64-3.94-4.64-1.82 0-2.64 1-3.1 1.7V8.5h-3.5V19h3.5v-5.2c0-1.37.26-2.7 1.96-2.7 1.67 0 1.7 1.56 1.7 2.8V19H21V13Z"/></svg><span>LinkedIn</span></a><a class="social-link github" href="https://github.com/Animshr" target="_blank" rel="noopener noreferrer" aria-label="Anim Shrestha on GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.61-3.37-1.18-3.37-1.18-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.54 1.04 1.54 1.04.9 1.54 2.35 1.1 2.92.84.09-.65.35-1.1.64-1.35-2.22-.25-4.56-1.11-4.56-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.48c.85 0 1.7.11 2.5.34 1.91-1.29 2.74-1.02 2.74-1.02.56 1.38.21 2.4.11 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.35 4.68-4.58 4.93.36.31.68.9.68 1.81V21c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg><span>GitHub</span></a><a class="social-link youtube" href="https://www.youtube.com/@animshrestha5079" target="_blank" rel="noopener noreferrer" aria-label="Anim Shrestha on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.58 7.19a3 3 0 0 0-2.1-2.12C17.63 4.57 12 4.57 12 4.57s-5.63 0-7.48.5a3 3 0 0 0-2.1 2.12A31.1 31.1 0 0 0 1.92 12a31.1 31.1 0 0 0 .5 4.81 3 3 0 0 0 2.1 2.12c1.85.5 7.48.5 7.48.5s5.63 0 7.48-.5a3 3 0 0 0 2.1-2.12 31.1 31.1 0 0 0 .5-4.81 31.1 31.1 0 0 0-.5-4.81ZM10.2 15V9l5.2 3-5.2 3Z"/></svg><span>YouTube</span></a><a class="social-link email" href="mailto:animshr123@gmail.com" aria-label="Email Anim Shrestha"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5.5A2.5 2.5 0 0 1 5.5 3h13A2.5 2.5 0 0 1 21 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-13A2.5 2.5 0 0 1 3 18.5v-13Zm2 .34v.31l7 4.67 7-4.67v-.31H5Zm14 2.72-6.45 4.3a1 1 0 0 1-1.1 0L5 8.56v9.94c0 .28.22.5.5.5h13a.5.5 0 0 0 .5-.5V8.56Z"/></svg><span>Email</span></a></div>
+      <div class="contact-forest" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+      <footer><p>© <span id="year"></span> Anim Shrestha</p><p>made slowly, with purpose <span>✦</span></p></footer>
+    </section>
+  </main>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
+
